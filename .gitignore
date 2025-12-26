@@ -15,4 +15,5 @@ frontend/out/
 .env.local
 EOF
 
-
+backend/.env.example
+backend/.env
