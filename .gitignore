@@ -1,0 +1,18 @@
+# create/append .gitignore rules
+cat >> .gitignore << 'EOF'
+
+# dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Next.js
+frontend/.next/
+frontend/out/
+
+# env files
+.env
+.env.local
+EOF
+
+
